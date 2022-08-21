@@ -1,6 +1,6 @@
 # Instalando o Kafka localmente
 
-# Feramments necessarias para o projeto
+# Feraments necessarias para o projeto
 
 https://kafka.apache.org/downloads
 
