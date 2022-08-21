@@ -1,0 +1,5 @@
+/home/efcunha/IdeaProjects/ecommerce/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java
+/home/efcunha/IdeaProjects/ecommerce/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java
+/home/efcunha/IdeaProjects/ecommerce/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java
+/home/efcunha/IdeaProjects/ecommerce/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java
+/home/efcunha/IdeaProjects/ecommerce/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java
