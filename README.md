@@ -12,6 +12,10 @@ $ cd kafka_x.xx-x.x.x/config
 
 $ mkdir -p /home/usuario/kafka_x.xx-x.x.x/data/
 
+Após criar as pastas levante primeiro o Zookeeper
+
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
 Edite os sequinte arquivo server.properties
 
 broker.id=1
@@ -24,9 +28,10 @@ log.dirs=/home/usuario/kafka_x.xx-x.x.x/data/
 mv server.properties server1.properties
 
 # Start serviços brockers Kafka 1
+
 bin/kafka-server-start.sh config/server1.properties
 
-$ cd kafka_x.xx-x.x.x/config
+# Crie o Brocker 02
 
 cp server1.properties server2.properties
 
@@ -36,9 +41,10 @@ broker.id=2
 listeners=PLAINTEXT://:9092
 
 # Start serviços brockers Kafka 2
+
 bin/kafka-server-start.sh config/server2.properties
 
-$ cd kafka_x.xx-x.x.x/config
+# Crie o Brocker 03
 
 cp server2.properties server3.properties
 
@@ -48,9 +54,10 @@ broker.id=3
 listeners=PLAINTEXT://:9093
 
 # Start serviços brockers Kafka 3
+
 bin/kafka-server-start.sh config/server3.properties
 
-$ cd kafka_x.xx-x.x.x/config
+# Crie o Brocker 04
 
 cp server3.properties server4.properties
 
@@ -60,6 +67,7 @@ broker.id=4
 listeners=PLAINTEXT://:9094
 
 # Start serviços brockers Kafka 4
+
 bin/kafka-server-start.sh config/server4.properties
 
 # Verifica os topicos dos brockers Kafka
