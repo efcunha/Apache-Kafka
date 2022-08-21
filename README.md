@@ -1,6 +1,6 @@
-# Instalando o Kafka localmente
+# Instalando o Apache Kafka localmente
 
-# Feramentas necessarias para o projeto
+# Ferramentas necessarias para o projeto
 
 https://kafka.apache.org/downloads
 
